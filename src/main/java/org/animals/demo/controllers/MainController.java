@@ -33,7 +33,7 @@ public class MainController {
 //		return "index";
 //	}
 	
-	@RequestMapping("/index")
+	@RequestMapping("/")
 	public String getIndex() {
 		return "index";
 	}
